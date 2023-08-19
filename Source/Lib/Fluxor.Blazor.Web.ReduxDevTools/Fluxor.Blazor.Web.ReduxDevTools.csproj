@@ -5,6 +5,7 @@
 		<PackageIcon>fluxor-blazor-reduxdevtools-small.png</PackageIcon>
 		<PackageTags>Redux Flux DotNet CSharp Blazor RazorComponents ReduxDevTools</PackageTags>
 		<SignAssembly Condition="'$(Configuration)'=='Release'">True</SignAssembly>
+		<GeneratePackageOnBuild>false</GeneratePackageOnBuild>
 	</PropertyGroup>
 
 	<PropertyGroup>
